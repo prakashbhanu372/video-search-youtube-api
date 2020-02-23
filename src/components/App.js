@@ -17,7 +17,7 @@ class App extends Component {
         }
       })
       .then(res => {
-        //console.log(res);
+        console.log(res);
         this.setState({ VideoList: res.data.items });
       })
       .catch(error => {
